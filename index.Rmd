@@ -10,7 +10,7 @@ output:
 This is my JSC370 Final Project website.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE}
-knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE)
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
 library(dplyr)
 library(plotly)
 source('process_COVID_data.R')
